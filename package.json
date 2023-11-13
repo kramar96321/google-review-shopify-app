@@ -1,0 +1,36 @@
+{
+  "name": "kostiantyn-google-review-importer",
+  "version": "0.1.0",
+  "description": "Internal package for Gadget app Kostiantyn Google Review Importer (Development environment)",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "vite:build": "NODE_ENV=production vite build"
+  },
+  "dependencies": {
+    "@gadget-client/kostiantyn-google-review-importer": "link:.gadget/client",
+    "@gadgetinc/auth": "^0.3.4",
+    "@gadgetinc/react": "^0.14.12",
+    "@gadgetinc/react-shopify-app-bridge": "^0.13.3",
+    "@react-oauth/google": "^0.11.1",
+    "@shopify/app-bridge": "3.5.0",
+    "@shopify/app-bridge-react": "3.5.0",
+    "@shopify/polaris": "^12.0.0",
+    "@shopify/polaris-icons": "^7.9.0",
+    "axios": "^1.6.0",
+    "gadget-server": "link:.gadget/server",
+    "google-maps-react": "^2.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.15.0",
+    "shopify-api-node": "^3.12.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "3.2.0",
+    "typescript": "4.5.5",
+    "vite": "^4.4.9"
+  }
+}
